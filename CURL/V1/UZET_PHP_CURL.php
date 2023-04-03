@@ -31,7 +31,7 @@ curl_setopt_array($curl, array(
 $response = curl_exec($curl);
 $json = json_decode($response);
 curl_close($curl);
-return $json->url;;
+return $json->url;
 }
 
 // Customer Info's sent with APi 
